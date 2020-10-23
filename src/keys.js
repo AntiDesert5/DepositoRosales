@@ -1,8 +1,8 @@
 module.exports = {
     database: {
-        host: 'localhost',
-        user: 'root',
-        password: '',
+        host: 'seguridadredes.mysql.database.azure.com',
+        user: 'icoico@seguridadredes',
+        password: 'Martin123',
         database: 'database_rosales',
     }
 };
