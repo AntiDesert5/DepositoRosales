@@ -26,7 +26,7 @@ app.set('view engine', '.hbs');
 
 //Middlewares
 app.use(session({
-    secret: 'RosalesMysqlNodeSession',
+    secret: 'RosalesMysqlNodeSessi',
     resave: false,
     saveUninitialized: false,
     store: new MySQLStore(database)
